@@ -1,0 +1,40 @@
+header {
+  background: #171717;
+  color: #fff;
+  height: 30px;
+  font-size: 13px;
+  /*padding: 7px 0;*/
+}
+header a {
+  color:#fefefe;
+}
+header img {
+  width: 20px;
+  height: 20px;
+}
+
+.menu {
+  margin-top: 30px;
+  height: 50px;
+}
+.menu .logo {
+  width: 64px;
+  height: 25px;
+}
+
+.item i {
+  color: #aaa;
+  font-size: 1.5em;
+  margin: 10px;
+}
+.item .fi-mail {
+  color: #fefefe;
+}
+
+@media screen and (min-width:600px;) {
+  .menu .logo {
+    width: 84px;
+    height: 33px;
+    float: left;
+  }
+}
