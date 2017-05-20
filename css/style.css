@@ -37,6 +37,8 @@ header img {
 .menu .title-bar {
   background: none;
 }
+
+
 @media screen and (min-width:600px;) {
   .logo img {
     width: 84px;
