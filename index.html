@@ -10,7 +10,50 @@
   <title>Fab.com</title>
 </head>
 <body>
-  <header>
+
+  <nav class="off-canvas position-left" id="hamburguer" data-off-canvas>
+    <ul class="accordion" data-accordion data-allow-all-closed="true">
+      <li><a href="">Sign</a></li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#arrivals" class="accordion-title">NEW ARRIVALS</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#art" class="accordion-title">ART</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#home" class="accordion-title">HOME</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#women" class="accordion-title">WOMEN</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#men" class="accordion-title">MEN</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#tech" class="accordion-title">TECH</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#fun" class="accordion-title">FUN</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#designer" class="accordion-title">FEATURED DESIGNERS</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#boutiques" class="accordion-title">BOUTIQUES</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#blog" class="accordion-title">Fab Insider</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#blog" class="accordion-title">Registry</a>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#blog" class="accordion-title">Contact us</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="off-canvas-content" data-off-canvas-content>
     <div class="row">
       <div class="small-6 columns text-left">
         <a class="hite" href="">FREE SHIPPING above $7</a>
@@ -24,12 +67,14 @@
     </div>
     <div class="row text-center menu">
       <nav class="small-4 column text-left show-for-small-only">
-        <a class="item">
-          <i class="fi-list"></i>
-        </a>
+        <div class="title-bar">
+          <div class="title-bar-left">
+            <button class="menu-icon dark" type="button" data-toggle="hamburguer"></button>
+          </div>
+        </div>
       </nav>
-      <div class="small-4 medium-2 columns">
-        <img src="assets/img/fab-logo.png" alt="logo fab" class="logo">
+      <div class="small-4 medium-2 columns logo">
+        <img src="assets/img/fab-logo.png" alt="logo fab">
       </div>
       <div class="medium-6 column show-for-medium">
         <div class="input-group">
@@ -38,15 +83,12 @@
               <i class="fi-magnifying-glass"></i>
             </a>
           </span>
-          <input class="input-group-field" type="number">
-          <div class="input-group-button">
-            <!-- <input type="submit" class="fi-female" value="Submit"> -->
-            <span class="input-group-label">
-              <a href="" class="item">
-                <i class="fi-female"></i>
-              </a>
-            </span>
-          </div>
+          <input class="input-group-field" type="text">
+          <span class="input-group-label">
+            <a href="" class="item">
+              <i class="fi-female"></i>
+            </a>
+          </span>
         </div>
       </div>
       <div class="small-4 column">
@@ -57,7 +99,6 @@
           <i class="fi-lock"></i>
         </a>
       </div>
-
     </div>
   </header>
   <main>

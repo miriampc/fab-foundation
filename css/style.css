@@ -17,22 +17,28 @@ header img {
   margin-top: 30px;
   height: 50px;
 }
-.menu .logo {
+.logo img {
   width: 64px;
   height: 25px;
 }
 
 .item i {
   color: #aaa;
-  font-size: 1.5em;
-  margin: 10px;
+  font-size: 1.7em;
 }
 .item .fi-mail {
   color: #fefefe;
 }
 
+.item .fi-lock {
+  margin-left: 14px;
+}
+
+.menu .title-bar {
+  background: none;
+}
 @media screen and (min-width:600px;) {
-  .menu .logo {
+  .logo img {
     width: 84px;
     height: 33px;
     float: left;
