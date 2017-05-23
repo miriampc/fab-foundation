@@ -1,4 +1,149 @@
-#carousel{
-  margin-left: 20px;
-  margin-right: 20px;
+* {
+  font-family: 'Lato', 'Nunito', sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  height: 160px;
+}
+
+.nav-header-top {
+  background: #171717;
+  height: 30px;
+}
+
+.text-left {
+  padding-bottom: 3px;
+}
+.text-left a,
+.text-right a{
+  color:#fefefe;
+  font-size: 12px;
+}
+
+.text-right img {
+  width: 18px;
+  height: 18px;
+  margin: 0 5px 5px 5px;
+}
+
+.hamburguer-menu {
+  margin-top: 20px;
+  height: 50px;
+}
+.logo img {
+  width: 64px;
+  height: 25px;
+}
+
+.item i {
+  color: #ababab;
+}
+.item .fi-mail {
+  font-size: 1.5em;
+  padding: 0 5px;
+  color: #fff;
+}
+.label-icon {
+  background: none;
+  border-color: #000;
+  box-shadow: none;
+}
+.input-group-field {
+  border-left: none;
+}
+/**/
+.hamburguer-menu .title-bar {
+  background: none;
+}
+.accordion li a {
+  color: #212121;
+  font-size: .9em;
+}
+.accordion-title::before {
+  font-size: 2em;
+}
+
+.no-plus:before {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    margin-top: -.5rem;
+    content: "";
+}
+.accordion-content ul li {
+  list-style: none;
+}
+
+.menu-right>li>a {
+  color: #ababab;
+  font-size: 1em;
+  padding: .2rem .7rem;
+}
+
+.menu-right li a:hover,
+.menu-right li a i:hover {
+  color: #212121;
+}
+
+.menu-right li {
+  margin-top: 10px;
+  float: right;
+  border-right: 1px solid #ababab;
+}
+
+.menu-right li:nth-child(1) {
+  padding-right: 0;
+  border-right: none;
+}
+
+.menu-right li a i:after {
+  padding-left: 28px;
+  font-weight: normal;
+}
+
+/**/
+.nav-header-bottom {
+  padding-top: 21px;
+  width: 100%;
+}
+.nav-bar li a{
+  padding: 0 30px;
+  border-left: 1px solid #c2c2c2;
+  color: #171717;
+  font-weight: bold;
+}
+
+.nav-bar li:nth-child(1) a{
+  padding-left: 0;
+  border-left: none;
+}
+
+.nav-bar li a:hover {
+  color: #adadad;
+}
+
+a img{
+  margin: 10px 0px;
+}
+
+#show-now {
+  margin-top: 170px;
+}
+
+
+@media screen and (min-width:600px;) {
+  .logo img {
+    width: 99px;
+    height: 39px;
+    float: left;
+  }
+  .movil{
+    padding: 0 !important;
+  }
 }

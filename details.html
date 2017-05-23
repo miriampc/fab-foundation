@@ -2,15 +2,222 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-	  <meta http-equiv="x-ua-compatible" content="ie=edge">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <link rel="stylesheet" href="css/fonts/style.css">
-	  <link rel="stylesheet" href="css/foundation.min.css">
-	  <link rel="stylesheet" href="css/style.css">
-	  <link rel="stylesheet" href="css/details.css">
+	 	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<link rel="stylesheet" href="css/fonts/style.css">
+	 	<link rel="stylesheet" href="css/foundation.min.css">
+		<link rel="stylesheet" href="assets/foundation-icons/foundation-icons.css">
+	  	<link href="https://fonts.googleapis.com/css?family=Lato|Nunito" rel="stylesheet">
+	  	<link rel="stylesheet" href="assets/owlcarousel/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/owlcarousel/dist/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/details.css">
 		<title>Product Details</title>
 	</head>
 	<body>
+		<nav id="hamburguer" class="off-canvas position-left" data-off-canvas>
+		    <ul class="accordion" data-accordion data-allow-all-closed="true">
+		      <li><a href="#" class="accordion-title no-plus">Sign In</a></li>
+		      <li>
+		        <a href="#arrivals" class="accordion-title no-plus">New Arrivals</a>
+		      </li>
+		      <li class="accordion-item" data-accordion-item>
+		        <a href="#art" class="accordion-title">Art</a>
+		        <div class="accordion-content" data-tab-content id="art">
+		          <ul>
+		            <li><a href="">Featured Styles</a></li>
+		            <li><a href="">Featured Subjects</a></li>
+		            <li><a href="">Featured Types</a></li>
+		            <li><a href="">All</a></li>
+		          </ul>
+		        </div>
+		      </li>
+		      <li class="accordion-item" data-accordion-item>
+		        <a href="#home" class="accordion-title">Home</a>
+		        <div class="accordion-content" data-tab-content id="home">
+		          <ul>
+		            <li><a href="">Home Décor</a></li>
+		            <li><a href="">Kitchen</a></li>
+		            <li><a href="">Dining</a></li>
+		            <li><a href="">Bed & Bath</a></li>
+		            <li><a href="">Furniture & Lighting</a></li>
+		            <li><a href="">All</a></li>
+		          </ul>
+		        </div>
+		      </li>
+		      <li class="accordion-item" data-accordion-item>
+		        <a href="#women" class="accordion-title">Women</a>
+		        <div class="accordion-content" data-tab-content id="women">
+		          <ul>
+		            <li><a href="">Accessories</a></li>
+		            <li><a href="">Travel & Everyday Carryalls</a></li>
+		            <li><a href="">Jewerly</a></li>
+		            <li><a href="">All</a></li>
+		          </ul>
+		        </div>
+		      </li>
+		      <li class="accordion-item" data-accordion-item>
+		        <a href="#men" class="accordion-title">Men</a>
+		        <div class="accordion-content" data-tab-content id="men">
+		          <ul>
+		            <li><a href="">Accessories</a></li>
+		            <li><a href="">Bags & Travel</a></li>
+		            <li><a href="">Clothing</a></li>
+		            <li><a href="">All</a></li>
+		          </ul>
+		        </div>
+		      </li>
+		      <li class="accordion-item" data-accordion-item>
+		        <a href="#tech" class="accordion-title">Tech</a>
+		        <div class="accordion-content" data-tab-content id="tech">
+		          <ul>
+		            <li><a href="">Smart Gadget Accessories</a></li>
+		            <li><a href="">Audio & Photography</a></li>
+		            <li><a href="">Smart Gadgets</a></li>
+		            <li><a href="">All</a></li>
+		          </ul>
+		        </div>
+		      </li>
+		      <li class="accordion-item" data-accordion-item>
+		        <a href="#fun" class="accordion-title">Fun</a>
+		        <div class="accordion-content" data-tab-content id="fun">
+		          <ul>
+		            <li><a href="">Toys Games & Craft Kits</a></li>
+		            <li><a href="">Cycling and Yoga</a></li>
+		            <li><a href="">Adult Shop</a></li>
+		            <li><a href="">All</a></li>
+		          </ul>
+		        </div>
+		      </li>
+		      <li class="accordion-item" data-accordion-item>
+		        <a href="#designer" class="accordion-title">Featured Designers</a>
+		        <div class="accordion-content" data-tab-content id="designer">
+		          <ul>
+		            <li><a href="">Broad City x Fab</a></li>
+		            <li><a href="">Kelly Puissegur</a></li>
+		            <li><a href="">Simone Massoni</a></li>
+		            <li><a href="">Fab Exclusives</a></li>
+		            <li><a href="">Matt Bellassai x Fab</a></li>
+		            <li><a href="">Hisham Akira Bharoocha x Fab</a></li>
+		            <li><a href="">Star Wars</a></li>
+		            <li><a href="">DIY</a></li>
+		            <li><a href="">Geek Chic</a></li>
+		            <li><a href="">Greenery</a></li>
+		            <li><a href="">Pop Kween</a></li>
+		            <li><a href="">Fab After Dark</a></li>
+		            <li><a href="">Wedding Shop</a></li>
+		          </ul>
+		        </div>
+		      </li>
+		      <li>
+		        <a href="#insider" class="accordion-title no-plus">Fab Insider</a>
+		      </li>
+		      <li>
+		        <a href="#registry" class="accordion-title no-plus">Registry</a>
+		      </li>
+		      <li>
+		        <a href="#contact" class="accordion-title no-plus">Contact us</a>
+		      </li>
+		      <li>
+		        <a href="#contact" class="accordion-title no-plus">Blog</a>
+		      </li>
+		    </ul>
+	  	</nav>
+
+	  	<header class="off-canvas-content" data-off-canvas-content>
+		    <div class="nav-header-top">
+		      <div class="row">
+		        <div class="small-6 columns text-left">
+		          <a href="">FREE SHIPPING above $7*</a>
+		        </div>
+		        <div class="small-6 columns text-right">
+		          <a href="">Ship To:</a>
+		          <img src="assets/img/us.png" alt="">
+		          <a class="item">
+		            <i class="fi-mail"></i> Email Us
+		          </a>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="row text-center hamburguer-menu">
+		      <nav class="small-4 column text-left show-for-small-only">
+		        <div class="title-bar">
+		          <div class="title-bar-left">
+		            <button class="menu-icon dark" type="button" data-toggle="hamburguer"></button>
+		          </div>
+		        </div>
+		      </nav>
+		      <div class="small-4 medium-2 columns logo">
+		        <img src="assets/img/fab-logo.png" alt="logo fab">
+		      </div>
+		      <div class="medium-6 column show-for-medium">
+		        <div class="input-group">
+		          <span class="input-group-label label-icon">
+		            <a href="#" class="item">
+		              <i class="fi-magnifying-glass"></i>
+		            </a>
+		          </span>
+		          <input class="input-group-field label-icon" type="text" placeholder="What are you shopping for?">
+		          <span class="input-group-label label-icon">
+		            <a href="#items-search" class="item">
+		              <i class="fi-female"></i>
+		            </a>
+		          </span>
+		        </div>
+		      </div>
+		      <div class="small-4 column">
+		        <ul class="menu menu-right">
+		          <li><a href="" class="show-for-medium">Login</a></li>
+		          <li><a href="#mybag" class="item" data-toggle="mybag">
+		            <i class="fi-lock"></i>
+		          </a></li>
+		          <li><a href="" class="item show-for-small-only">
+		            <i class="fi-magnifying-glass"></i>
+		          </a></li>
+		          <li><a href="" class="show-for-medium">Registry</a></li>
+		          <li><a href="" class="show-for-medium">Fab Insider</a></li>
+		        </ul>
+		      </div>
+		    </div>
+		    <div class="row nav-header-bottom">
+		        <nav class="medium-12 column show-for-medium">
+		          <ul class="menu nav-bar">
+		            <li class="uno"><a href="#">NEW ARRIVALS</a></li>
+		            <li><a href="#">ART</a></li>
+		            <li><a href="#">HOME</a></li>
+		            <li><a href="#">WOMEN</a></li>
+		            <li><a href="#">MEN</a></li>
+		            <li><a href="#">TECH</a></li>
+		            <li><a href="#">FUN</a></li>
+		            <li><a href="#">FEATURES</a></li>
+		            <li><a href="#">BOUTIQUES</a></li>
+		            <li><a href="#">BLOG</a></li>
+		          </ul>
+		        </nav>
+		    </div>
+		</header>
+		<!-- Modal Carrito -->
+		<div class="off-canvas position-right" id="mybag" data-off-canvas>
+		    <div class="title-bar">
+		      <div class="title-bar-left">
+		        <button class="menu-text" aria-label="Close menu" type="button" data-close>
+		          <span aria-hidden="true"><i class="fi-play"></i></span>
+		        </button>
+		        <span class="title-bar-title">My Bag</span>
+		      </div>
+		    </div>
+		    <div class="callout secondary">
+		      <a href=""><i class="fi-shopping-cart"></i></a>
+		      <span>FREE SHIPPING on orders above $ 75 *</span>
+		    </div>
+		    <div class="callout default text-center">
+		      <a href=""><i class="fi-lock"></i></a>
+		      <p>You have no items in your bag</p>
+		      <a class="button secondary" href="#">Shop More ></a>
+		    </div>
+		    <a class="button expanded secondary" href="#">Checkout ></a>
+	 	</div>
+	 	<!-- Details product -->
 		<section id="details">
 			<div class="row text-center">
 				<div class="medium-1 columns hide-container img-little">
@@ -66,7 +273,7 @@
 						<p><span>FREE SHIPING</span> about $75*</p>
 					</div>
 					<div class="button-shop">
-						<button class="car-shop-button"><span class="icon-shopping-bag"></span>Add to Bag</button>
+						<button class="car-shop-button" data-toggle="mybag"><span class="icon-shopping-bag"></span>Add to Bag</button>
 						<button class="like-button"><span class="icon-heart-o"></span>222</button>
 					</div>
 					<div class="social-media">
@@ -142,18 +349,18 @@
 				        <a href="#" class="accordion-title">More Details</a>
 				        <div class="accordion-content row" data-tab-content >
  					      	<div class="small-6 columns">
-										<p><strong>Designer: </strong>Olivia Goodwin, Lee Goodwin</p>
-										<p><strong>Material: </strong>Cedar, Brass</p>
-										<p><strong>Color: </strong>Brown</p>
-										<p><strong>Diameter: </strong>2.50"</p>
-									</div>
-									<div class="small-6 columns">
-										<p><strong>Care: </strong>Dust with a dry cloth.</p>
-										<p><strong>Finish: </strong>Clear Stain</p>
-										<p><strong>Origin: </strong>United States</p>
-										<p><strong>Measurements: </strong>L 11 "W 18 H 1.50"</p>
-									</div>
-			          </div>
+								<p><strong>Designer: </strong>Olivia Goodwin, Lee Goodwin</p>
+								<p><strong>Material: </strong>Cedar, Brass</p>
+								<p><strong>Color: </strong>Brown</p>
+								<p><strong>Diameter: </strong>2.50"</p>
+							</div>
+							<div class="small-6 columns">
+								<p><strong>Care: </strong>Dust with a dry cloth.</p>
+								<p><strong>Finish: </strong>Clear Stain</p>
+								<p><strong>Origin: </strong>United States</p>
+								<p><strong>Measurements: </strong>L 11 "W 18 H 1.50"</p>
+							</div>
+			          	</div>
 				      </li>
 				      <li class="accordion-item" data-accordion-item>
 				        <a href="#" class="accordion-title">Customer Reviews</a>
@@ -167,7 +374,174 @@
 				</div>
 			</div>
 		</section>
+		<!-- Carousel -->
+		<section id="carousel">
+			<div class="carousel-product large-12 column">
+    			<div class="row">
+      				<div class="large-12 columns">
+			         	<h6>YOU MIGHT ALSO LIKE</h6>
+			       		<div class="owl-nome owl-carousel owl-theme">
+				        	<div class="item">
+				        		<a href="details.html">
+				        			<img src="assets/img/img1.png" alt="">
+				         		</a>
+				         		<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img2.png" alt="">
+				          		</a>
+					            <div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img3.png" alt="">
+				          		</a>
+				      			<div class="price">$34</div>
+				         	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img4.png">
+				          		</a>
+				              	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img5.png">
+				          		</a>
+				              	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img6.png">
+				          		</a>
+				              	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img7.png">
+				          		</a>
+				              	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img8.png">
+				          		</a>
+				              	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img9.png">
+				          		</a>
+				              	<div class="price">$34</div>
+				        	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img10.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img11.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img12.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+			        	</div>
+					</div>
+      			</div>
+	    	</div>
+	    	<hr>
+	    	<div class="carousel-product large-12 column">
+    			<div class="row">
+      				<div class="large-12 columns">
+			         	<h6>YOU MIGHT ALSO LIKE</h6>
+			       		<div class="owl-nome owl-carousel owl-theme">
+				        	<div class="item">
+				        		<a href="details.html">
+				        			<img src="assets/img/img13.png">
+				        		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img14.png">
+				          		</a>
+				            <div class="price">$34</div>
+				         	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img15.png">
+				          		</a>
+				            <div class="price">$34</div>
+				         	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img16.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img17.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img18.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img19.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img20.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img21.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				        	</div>
+				          	<div class="item">
+				          		<a href="">
+				          			<img src="assets/img/img22.png" alt="">
+				          		</a>
+				            	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img23.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+				          	<div class="item">
+				          		<a href="details.html">
+				          			<img src="assets/img/img24.png">
+				          		</a>
+				               	<div class="price">$34</div>
+				          	</div>
+			        	</div>
+					</div>
+      			</div>
+	    	</div>
+		</section>
 		<script type="text/javascript" src="js/vendor/jquery.js"></script>
+		<script src="assets/owlcarousel/dist/owl.carousel.js"></script>
 		<script type="text/javascript" src="js/vendor/foundation.min.js"></script>
 		<script type="text/javascript" src="js/vendor/what-input.js"></script>
 		<script type="text/javascript" src="js/details.js"></script>
