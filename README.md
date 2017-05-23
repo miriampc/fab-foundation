@@ -1,4 +1,6 @@
 # FAB-FOUNDATION
+ Para observar los resultados se puede ingresar a https://miriampc.github.io/fab-foundation/
+
  - Este repositorio fue trabajado de manera grupal.
  - La Meta establecida es replicar el Website de Fab.com, una empresa dedicada a ayudar 
     a sus clientes a descubrir productos divertidos y únicos, donde pueden elegir
