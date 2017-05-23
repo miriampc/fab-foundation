@@ -131,14 +131,11 @@ header {
 a img{
   margin: 10px 0px;
 }
+
 #show-now {
   margin-top: 170px;
 }
 
-#carousel{
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
 @media screen and (min-width:600px;) {
   .logo img {

@@ -1,3 +1,5 @@
+$(document).foundation()
+
 var imgShow = document.getElementsByClassName("imgShow")[0];
 var changesImg = document.getElementById("changesImg");
 
