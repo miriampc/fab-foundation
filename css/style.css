@@ -1,3 +1,11 @@
 * {
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
+}
+.icon{
+  color: white;
+  background: black;
+  border-radius: 3px;
+  font-size: 25px;
+  width: 25px;
+  margin: 3px;
 }

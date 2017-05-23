@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?twaipc');
+  src:  url('fonts/icomoon.eot?twaipc#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?twaipc') format('truetype'),
+    url('fonts/icomoon.woff?twaipc') format('woff'),
+    url('fonts/icomoon.svg?twaipc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-notifications:before {
+  content: "\e7f4";
+}
+.icon-search:before {
+  content: "\65";
+}
+.icon-facebook:before {
+  content: "\68";
+}
+.icon-facebook-f:before {
+  content: "\68";
+}
+.icon-angle-up:before {
+  content: "\f106";
+}
+.icon-instagram:before {
+  content: "\6a";
+}
+.icon-chevron-up:before {
+  content: "\e901";
+}
+.icon-pinterest:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
