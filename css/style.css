@@ -47,6 +47,7 @@ header {
 .item .fi-mail {
   font-size: 1.5em;
   padding: 0 5px;
+  color: #fff;
 }
 .label-icon {
   background: none;
@@ -133,6 +134,12 @@ a img{
 #show-now {
   margin-top: 170px;
 }
+
+#carousel{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 @media screen and (min-width:600px;) {
   .logo img {
     width: 99px;
