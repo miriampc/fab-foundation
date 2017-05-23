@@ -9,3 +9,15 @@
   width: 25px;
   margin: 3px;
 }
+.icon-facebook-f:hover{
+  background: blue;
+}
+.icon-twitter:hover{
+  background: skyblue;
+}
+.icon-pinterest:hover{
+  background: red;
+}
+.icon-instagram:hover{
+  color: blue;
+}
