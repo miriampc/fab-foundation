@@ -1,0 +1,10 @@
+a img{
+  margin: 10px 0px;
+
+}
+@media (max-width: 600px)
+{
+  .movil{
+    padding: 0 !important;
+  }
+}
