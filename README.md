@@ -21,7 +21,7 @@
     - Sección que comprende el Header del website.
     - Aquí podemos realizar busqueda de productos, y acceder a un menú con las categorias de los productos
     - En la versión Mobile first, se aplicó la clase acordeón (menú lateral 
-      que se activa con el botón menu-icon.
+      que se activa con el botón menu-icon).
     - En la versión Desktop first, se transforma en un menú simple.
     
   ## SHOP-NOW:
