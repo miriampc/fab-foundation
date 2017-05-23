@@ -5,7 +5,11 @@
 
 header {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  background: #fff;
+  height: 160px;
 }
 
 .nav-header-top {
@@ -123,10 +127,19 @@ header {
   color: #adadad;
 }
 
+a img{
+  margin: 10px 0px;
+}
+#show-now {
+  margin-top: 170px;
+}
 @media screen and (min-width:600px;) {
   .logo img {
     width: 99px;
     height: 39px;
     float: left;
+  }
+  .movil{
+    padding: 0 !important;
   }
 }
