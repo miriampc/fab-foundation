@@ -8,6 +8,7 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     dots: false,
+    lazyLoad : false,
     navText: [
       "<i class='fa fa-angle-left'></i>",
       "<i class='fa fa-angle-right'></i>"
