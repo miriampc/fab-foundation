@@ -10,6 +10,7 @@ header {
   width: 100%;
   background: #fff;
   height: 160px;
+  z-index: 5;
 }
 
 .nav-header-top {
@@ -79,6 +80,32 @@ header {
 .accordion-content ul li {
   list-style: none;
 }
+/*Modal carrito*/
+.position-right {
+  width: 350px;
+  transform: translateX(350px);
+  background: #fff;
+  border: 1px solid #cacaca;
+  z-index: 6;
+}
+
+.position-right.is-transition-push:after {
+  box-shadow: none;
+}
+
+.container-checking {
+  padding: 5%;
+}
+.checking {
+  display: none;
+}
+.checking .hollow {
+  padding: 0;
+}
+.checking img {
+  width: 90px;
+  height: 30px;
+}
 
 .menu-right>li>a {
   color: #ababab;
@@ -136,10 +163,10 @@ a img{
   margin-top: 170px;
 }
 
+/*Footer*/
 .menu li{
   margin: 0px;
   padding: 0px;
-
 }
 
 .menu li a{
@@ -168,6 +195,11 @@ a img{
 }
 .icon-instagram:hover{
   color: blue;
+}
+#btnContinue button{
+  padding: 10px 0;
+  background: #000;
+  margin-left: 10px;
 }
 
 @media screen and (min-width:600px;) {

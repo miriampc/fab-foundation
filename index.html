@@ -208,16 +208,33 @@
         <span class="title-bar-title">My Bag</span>
       </div>
     </div>
-    <div class="callout secondary">
-      <a href=""><i class="fi-shopping-cart"></i></a>
-      <span>FREE SHIPPING on orders above $ 75 *</span>
+    <div class="container-checking">
+      <div class="checkout" id="checkout">
+        <div class="secondary">
+          <a href=""><i class="fi-shopping-cart"></i></a>
+          <span>FREE SHIPPING on orders above $ 75 *</span>
+        </div>
+        <div class="default text-center">
+          <a href=""><i class="fi-lock"></i></a>
+          <p>You have no items in your bag</p>
+          <a class="button secondary" href="#">Shop More ></a>
+        </div>
+        <a id="send-checking" class="button expanded secondary" href="#checking">Checkout ></a>
+      </div>
+      <div class="checking" id="checking">
+        <h5>Select your payment method:</h5>
+        <small>Promo codes can be applied on the next screen.</small>
+        <div class="card secondary">
+          <input type="checkbox" name="check">
+          <label for="check">I would like to donate $1 to support</label>
+          <a href="">"International Rescue Committee".</a>
+        </div>
+        <a class="button expanded" href="#">Credit Card</a>
+        <a class="hollow button secondary expanded" href="#">
+          <img src="assets/img/new_paypal_logo.png" alt="">
+        </a>
+      </div>
     </div>
-    <div class="callout default text-center">
-      <a href=""><i class="fi-lock"></i></a>
-      <p>You have no items in your bag</p>
-      <a class="button secondary" href="#">Shop More ></a>
-    </div>
-    <a class="button expanded secondary" href="#">Checkout ></a>
   </div>
   <!-- Main -->
   <main>
@@ -699,12 +716,12 @@
           <div class="small-9 medium-6 large-6 columns">
             <input type="text" name="" value="" placeholder="YOUR EMAIL">
           </div>
-          <div class="small-12 medium-6 large-6 columns">
-            <button class="button secondary small-5 medium-12 large-12 columns" type="button" name="button">Continue</button>
+          <div id="btnContinue" class="small-12 medium-6 large-6 columns">
+            <button class="button small-5 medium-12 large-12 columns" type="button" name="button">Continue</button>
           </div>
         </div>
         <div class="row">
-          <span>*New customers only. Offer lasts 30 days. See Terms.</span>
+          <span>* New customers only. Offer lasts 30 days. See Terms.</span>
       </div>
       </div>
     </div>

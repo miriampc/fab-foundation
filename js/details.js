@@ -24,3 +24,12 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+// Modal carrito
+
+document.getElementById('send-checking').addEventListener('click', function(){
+	var checking=document.getElementById('checking');
+	var checkout=document.getElementById('checkout');
+	checkout.style.display="none";
+	checking.style.display="block";
+});
