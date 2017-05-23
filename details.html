@@ -7,7 +7,7 @@
 	  <link rel="stylesheet" href="css/fonts/style.css">
 	 	<link rel="stylesheet" href="css/foundation.min.css">
 		<link rel="stylesheet" href="assets/fonts/font-awesome.css">
-		<link rel="stylesheet" href="assets/foundation-icons/foundation-icons.css">	
+		<link rel="stylesheet" href="assets/foundation-icons/foundation-icons.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato|Nunito" rel="stylesheet">
 	  <link rel="stylesheet" href="assets/owlcarousel/dist/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="assets/owlcarousel/dist/assets/owl.theme.default.min.css">
@@ -199,25 +199,42 @@
 		</header>
 		<!-- Modal Carrito -->
 		<div class="off-canvas position-right" id="mybag" data-off-canvas>
-		    <div class="title-bar">
-		      <div class="title-bar-left">
-		        <button class="menu-text" aria-label="Close menu" type="button" data-close>
-		          <span aria-hidden="true"><i class="fi-play"></i></span>
-		        </button>
-		        <span class="title-bar-title">My Bag</span>
-		      </div>
-		    </div>
-		    <div class="callout secondary">
-		      <a href=""><i class="fi-shopping-cart"></i></a>
-		      <span>FREE SHIPPING on orders above $ 75 *</span>
-		    </div>
-		    <div class="callout default text-center">
-		      <a href=""><i class="fi-lock"></i></a>
-		      <p>You have no items in your bag</p>
-		      <a class="button secondary" href="#">Shop More ></a>
-		    </div>
-		    <a class="button expanded secondary" href="#">Checkout ></a>
-	 	</div>
+	    <div class="title-bar">
+	      <div class="title-bar-left">
+	        <button class="menu-text" aria-label="Close menu" type="button" data-close>
+	          <span aria-hidden="true"><i class="fi-play"></i></span>
+	        </button>
+	        <span class="title-bar-title">My Bag</span>
+	      </div>
+	    </div>
+	    <div class="container-checking">
+	      <div class="checkout" id="checkout">
+	        <div class="secondary">
+	          <a href=""><i class="fi-shopping-cart"></i></a>
+	          <span>FREE SHIPPING on orders above $ 75 *</span>
+	        </div>
+	        <div class="default text-center">
+	          <a href=""><i class="fi-lock"></i></a>
+	          <p>You have no items in your bag</p>
+	          <a class="button secondary" href="#">Shop More ></a>
+	        </div>
+	        <a id="send-checking" class="button expanded secondary" href="#checking">Checkout ></a>
+	      </div>
+	      <div class="checking" id="checking">
+	        <h5>Select your payment method:</h5>
+	        <small>Promo codes can be applied on the next screen.</small>
+	        <div class="card secondary">
+	          <input type="checkbox" name="check">
+	          <label for="check">I would like to donate $1 to support</label>
+	          <a href="">"International Rescue Committee".</a>
+	        </div>
+	        <a class="button expanded" href="#">Credit Card</a>
+	        <a class="hollow button secondary expanded" href="#">
+	          <img src="assets/img/new_paypal_logo.png" alt="">
+	        </a>
+	      </div>
+	    </div>
+	  </div>
 	 	<!-- Details product -->
 		<section id="details">
 			<div class="row text-center">
