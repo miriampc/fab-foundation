@@ -58,7 +58,7 @@ header {
 .input-group-field {
   border-left: none;
 }
-/**/
+/* Hamburguer menu*/
 .hamburguer-menu .title-bar {
   background: none;
 }
@@ -77,9 +77,15 @@ header {
     margin-top: -.5rem;
     content: "";
 }
+
+
 .accordion-content ul li {
   list-style: none;
 }
+#hamburguer {
+  z-index: 6;
+}
+
 /*Modal carrito*/
 .position-right {
   width: 350px;
@@ -148,7 +154,7 @@ header {
 
 .nav-bar li:nth-child(1) a{
   padding-left: 0;
-  border-left: none;
+  /*border-left: none;*/
 }
 
 .nav-bar li a:hover {
@@ -184,17 +190,17 @@ a img{
   width: 25px;
   margin: 3px;
 }
-.icon-facebook:hover{
-  background: blue;
+.social-icon .icon-facebook:hover{
+  background: #253363;
 }
-.icon-twitter:hover{
-  background: skyblue;
+.social-icon .icon-twitter:hover{
+  background: #2ca7e3;
 }
-.icon-pinterest:hover{
-  background: red;
+.social-icon .icon-pinterest:hover{
+  background: #d4232e;
 }
-.icon-instagram:hover{
-  color: blue;
+.social-icon .icon-instagram:hover{
+  color: #3c66c2;
 }
 #btnContinue button{
   padding: 10px 0;
